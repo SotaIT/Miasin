@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miasin.Services", "Miasin.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miasin.Web", "Miasin.Web\Miasin.Web.csproj", "{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miasin.Mvc", "Miasin.Mvc\Miasin.Mvc.csproj", "{354C9D53-880B-43A8-87FE-201751478923}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354C9D53-880B-43A8-87FE-201751478923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354C9D53-880B-43A8-87FE-201751478923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354C9D53-880B-43A8-87FE-201751478923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354C9D53-880B-43A8-87FE-201751478923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
