@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miasin.Services", "Miasin.Services\Miasin.Services.csproj", "{6798461B-8A2F-4B6A-B64C-D1A62B7F09D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miasin.Web", "Miasin.Web\Miasin.Web.csproj", "{9338C21E-20BD-47B6-8CA5-11BC4253599B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miasin.Web", "Miasin.Web\Miasin.Web.csproj", "{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{6798461B-8A2F-4B6A-B64C-D1A62B7F09D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6798461B-8A2F-4B6A-B64C-D1A62B7F09D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6798461B-8A2F-4B6A-B64C-D1A62B7F09D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9338C21E-20BD-47B6-8CA5-11BC4253599B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9338C21E-20BD-47B6-8CA5-11BC4253599B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9338C21E-20BD-47B6-8CA5-11BC4253599B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9338C21E-20BD-47B6-8CA5-11BC4253599B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A143AC-9EE3-4806-857A-BE8D17A63DCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
