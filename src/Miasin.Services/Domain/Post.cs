@@ -2,12 +2,15 @@
 
 namespace Miasin.Services.Domain
 {
-    public class Post: Services.Domain.BaseEntity<long>
+    /// <summary>
+    /// A Post created by a User
+    /// </summary>
+    public class Post: BaseEntity<long>
     {
         /// <summary>
         /// Author nickname
         /// </summary>
-        public string AuthorId { get; set; }
+        public string Author { get; set; }
 
         /// <summary>
         /// Title
@@ -30,13 +33,12 @@ namespace Miasin.Services.Domain
         public DateTimeOffset? Created { get; set; }
 
         /// <summary>
-        /// Publish datetime. 
-        /// Can be set to a later date so that the Post is published at that datetime
+        /// Publish datetime. Can be set to a later date so that the Post is published at that datetime.
         /// </summary>
         public DateTimeOffset? Published { get; set; }
 
         /// <summary>
-        /// Modified datetime. Should not be set a value, smaller than Published
+        /// Modified datetime. Should not be set to a value smaller than Published.
         /// </summary>
         public DateTimeOffset? Modified { get; set; }
     }

@@ -2,6 +2,13 @@
 
 namespace Miasin.Services.Domain
 {
+    /*
+     * 1. Author nickname is the Id used everywhere
+     * 2. A User can have more than one author
+     */
+    /// <summary>
+    /// Author
+    /// </summary>
     public class Author: BaseEntity<string>
     {
         /// <summary>
@@ -10,8 +17,8 @@ namespace Miasin.Services.Domain
         public string User { get; set; }
 
         /// <summary>
-        /// Registered datetime
+        /// Created datetime
         /// </summary>
-        public DateTimeOffset? Registered { get; set; }
+        public DateTimeOffset? Created { get; set; }
     }
 }
