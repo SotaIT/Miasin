@@ -17,6 +17,7 @@
  * @link     http://miasin.org/
  */
 
+require 'post-editor.php';
 
 add_action('init', 'miasin_init');
 
@@ -32,4 +33,6 @@ function Miasin_init()
     if (!current_user_can('manage_options')) {
         add_filter('show_admin_bar', '__return_false');
     }
+
+    $editpostform = new Miasin_Edit_Post();
 }
