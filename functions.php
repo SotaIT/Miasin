@@ -120,11 +120,14 @@ add_action( 'widgets_init', 'miasin_widgets_init' );
  * Enqueue scripts and styles.
  */
 function miasin_scripts() {
+	wp_enqueue_style( 'uikit-style', get_template_directory_uri() . '/css/uikit.min.css', array(), '3.1.7' );
 	wp_enqueue_style( 'miasin-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'miasin-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'miasin-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+    wp_enqueue_script( 'miasin-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+  
+    wp_enqueue_script( 'uikit-script', get_template_directory_uri() . '/js/uikit.min.js', array(), '3.1.7', false );
+    wp_enqueue_script( 'uikit-icons-script', get_template_directory_uri() . '/js/uikit-icons.min.js', array(), '3.1.7', false );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
